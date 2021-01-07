@@ -35,9 +35,13 @@ if (process.env.NODE_ENV === `production` && config.siteUrl === `http://localhos
 */
 module.exports = {
     siteMetadata: {
-        // siteUrl: process.env.SITEURL || config.siteUrl,
-        siteUrl: 'https://junkerheinz.github.com',
-    },
+        url: 'https://junkerheinz.github.com'
+        title: '크흡'
+        subtitle:
+          '되냐'
+        copyright: '© All rights reserved.'
+        // disqusShortname: 'your-disqus-shortname' // 이부분 수정
+      },
     plugins: [
         /**
          *  Content Plugins
